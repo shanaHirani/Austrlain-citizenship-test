@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/practiceFragment">
+
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.shana.astraliacitizenshiptest.practiceFragment"
+        android:label="fragment_practice"
+        tools:layout="@layout/fragment_practice" />
+    <fragment
+        android:id="@+id/testsFragment"
+        android:name="com.shana.astraliacitizenshiptest.testsFragment"
+        android:label="fragment_tests"
+        tools:layout="@layout/fragment_tests" />
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="com.shana.astraliacitizenshiptest.bookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.shana.astraliacitizenshiptest.dashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.shana.astraliacitizenshiptest.settingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/accessFeaturesFragment"
+        android:name="com.shana.astraliacitizenshiptest.accessFeaturesFragment"
+        android:label="fragment_access_features"
+        tools:layout="@layout/fragment_access_features" />
+</navigation>
